@@ -32,6 +32,16 @@ public class HttpClientNoteTest {
 	public void testHttpClientExample() {
 		new HttpClientExample().httpGetBaidu();
 	}
+	
+	@Test
+	public void testClientCustomContext() throws Exception {
+		new HttpClientExample().ClientCustomContext();
+	}
+	
+	@Test
+	public void testPostFormEntity() {
+		new HttpClientNote().postFormEntity();
+	}
 
 }
 

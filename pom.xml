@@ -12,11 +12,11 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		
+
 	</properties>
 
 	<!-- 添加用户自定义的本地仓库 -->
-	 <repositories>
+	<repositories>
 		<repository>
 			<id>repo1</id>
 			<url>http://repo1.maven.org/maven2</url>
@@ -65,6 +65,12 @@
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 			<version>2.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.6.2</version>
 		</dependency>
 	</dependencies>
 
