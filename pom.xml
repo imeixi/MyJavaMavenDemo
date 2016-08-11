@@ -22,12 +22,25 @@
 			<url>http://repo1.maven.org/maven2</url>
 			<name>central</name>
 		</repository>
+
+		<repository>
+			<id>ibiblio</id>
+			<name>Ibiblio Maven Repository</name>
+			<url>http://www.ibiblio.org/maven2</url>
+			<layout>default</layout>
+		</repository>
 	</repositories>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
+			<version>4.5.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpmime</artifactId>
 			<version>4.5.1</version>
 		</dependency>
 

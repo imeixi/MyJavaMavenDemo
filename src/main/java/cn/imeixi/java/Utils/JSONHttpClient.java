@@ -1,11 +1,32 @@
 package cn.imeixi.java.Utils;
 
-import org.apache.http.impl.client.DefaultHttpClient;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.List;
+import java.util.zip.GZIPInputStream;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.apache.http.Header;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.utils.URLEncodedUtils;
+import org.apache.http.entity.StringEntity;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+
+import com.google.gson.GsonBuilder;
 
 public class JSONHttpClient {
+	final static Log log = LogFactory.getLog(JSONHttpClient.class);
+	
     public <T> T PostObject(final String url, final T object,
             final Class<T> objectClass) throws Exception {
-        DefaultHttpClient defaultHttpClient = new DefaultHttpClient();
+        CloseableHttpClient defaultHttpClient = HttpClients.createDefault();
         HttpPost httpPost = new HttpPost(url);
         try {
             String data = new GsonBuilder().create().toJson(object);
@@ -19,7 +40,7 @@ public class JSONHttpClient {
                 HttpEntity httpEntity = httpResponse.getEntity();
                 if (httpEntity != null) {
                     InputStream inputStream = httpEntity.getContent();
-                    org.apache.http.Header contentEncoding = httpResponse
+                    Header contentEncoding = httpResponse
                             .getFirstHeader("Content-Encoding");
                     if (contentEncoding != null
                             && contentEncoding.getValue().equalsIgnoreCase(
@@ -34,7 +55,7 @@ public class JSONHttpClient {
             }
         } catch (Exception e) {
             e.printStackTrace();
-            Log.e(ServiceUrl.G_Log_Flag, "Result:" + e.getMessage());
+            log.error(httpPost.getRequestLine() + " result: " + e.getMessage());
             throw e;
         }
         return null;
