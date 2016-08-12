@@ -1,4 +1,4 @@
-package cn.imeixi.java.io.filehandler;
+package cn.imeixi.java.io.xml;
 
 import java.io.File;
 import java.io.FileWriter;
