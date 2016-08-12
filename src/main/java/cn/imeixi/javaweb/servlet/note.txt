@@ -1,0 +1,42 @@
+1、servlet 生命周期
+  a、constructor   （由tomcat容器创建对象）
+  b、init（）
+  c、service（）
+  d、destroy（）
+  
+ 2、web.xml 映射
+   @WebServlet(urlPatterns = {"/performServlet"}, loadOnStartup = 1)
+   loadOnStartup = -1  首次访问时启动
+   loadOnStartup = 0   加载时启动
+   多个servlet以loadOnStartup的值由小到大依次启动
+   
+ 3、servletConfig
+   可读取配置信息
+   web.xml中
+   <init-param>
+   		<param-name>user</param-name>
+   		<param-value>root</param-value>
+   </init-param>
+   以上节点必须在 loadOnStartup节点之上。
+   
+   servletConfig.getInitParameter("user")
+   Enumeration<String> names = servletConfig.getInitParameters();   返回Enumeration
+   while(names.hasMoreElements()){
+   		String name = names.nextElement();
+   		String value = servletConfig.getInitParameter(name);
+   		System.out.println("name:" + name);
+   		System.out.println("value:" + value);
+   		
+   }
+   
+   
+   4、servletContext
+   a、可以由servletConfig获取
+   b、该对象代表当前Web应用：可以认为ServletContext是当前web应用的大管家，可以获取当前web应用的各个信息。
+   c、获取当前web应用的初始化参数
+   <context-param>
+  	  <param-name>path</param-name>
+  	  <param-value>/usr/local/bin</param-value>
+	</context-param>
+	
+	servletContext.getInitParameter("path");
