@@ -2,6 +2,8 @@ package cn.imeixi.javaweb.servlet;
 
 import java.io.IOException;
 import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.Map;
 
 import javax.servlet.Servlet;
 import javax.servlet.ServletConfig;
@@ -64,12 +66,14 @@ public class HelloWorldServlet implements Servlet  {
 		System.out.println("user:" + user);
 		System.out.println();
 		
+		Map<String,String> params = new HashMap<String, String>();
 		System.out.println("**********   servletContext.getInitParameterNames()  ************");
 		Enumeration<String> users = servletContext.getInitParameterNames();
 		while(users.hasMoreElements()){
 			String user2 = users.nextElement();
 			String value2 = servletContext.getInitParameter(user2);
 			System.out.println(user2 + ":" + value2);
+			params.put(user2, value2);
 		}
 		
 		//获取文件在服务器上的路径
@@ -80,8 +84,8 @@ public class HelloWorldServlet implements Servlet  {
 		String contextPath = servletContext.getContextPath();
 		System.out.println(contextPath);
 		
-		//获取当前web应用的某一个文件对于的输入流
-		
+		servletContext.setAttribute("params", params);
+ 		
 		
 	}
 
