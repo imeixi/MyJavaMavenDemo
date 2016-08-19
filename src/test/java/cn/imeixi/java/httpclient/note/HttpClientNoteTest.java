@@ -4,7 +4,9 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import org.apache.http.ParseException;
 import org.junit.Test;
-import cn.imeixi.java.httpclient.note.HttpClientNote;
+
+import cn.imeixi.java.note.httpclient.HttpClientExample;
+import cn.imeixi.java.note.httpclient.HttpClientNote;
 
 public class HttpClientNoteTest {
 

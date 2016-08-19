@@ -1,4 +1,4 @@
-package cn.imeixi.java.httpclient.note;
+package cn.imeixi.java.note.httpclient;
 
 import java.io.File;
 import java.io.IOException;

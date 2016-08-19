@@ -1,4 +1,4 @@
-package cn.imeixi.java.Utils;
+package cn.imeixi.java.Utils.httpClient;
 
 import java.io.IOException;
 import java.net.SocketTimeoutException;

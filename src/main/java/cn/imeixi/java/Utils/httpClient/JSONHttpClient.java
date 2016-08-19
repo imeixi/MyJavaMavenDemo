@@ -1,4 +1,4 @@
-package cn.imeixi.java.Utils;
+package cn.imeixi.java.Utils.httpClient;
 
 import java.io.BufferedReader;
 import java.io.IOException;
