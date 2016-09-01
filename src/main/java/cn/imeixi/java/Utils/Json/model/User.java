@@ -1,4 +1,4 @@
-package cn.imeixi.java.Utils.Json;
+package cn.imeixi.java.Utils.Json.model;
 
 import java.util.Arrays;
 
