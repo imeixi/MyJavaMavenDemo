@@ -1,7 +1,5 @@
 package cn.imeixi.java.thread;
 
-import javax.swing.plaf.synth.SynthSeparatorUI;
-
 /**
  *  
    * @Name: MultiThreadExtendsThread.java

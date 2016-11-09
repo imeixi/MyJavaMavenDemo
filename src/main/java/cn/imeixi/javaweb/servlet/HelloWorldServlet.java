@@ -26,22 +26,18 @@ initParams = {@WebInitParam(name = "username", value = "tom"),@WebInitParam(name
 
 public class HelloWorldServlet implements Servlet  {
 
-	@Override
 	public void destroy() {
 		System.out.println("destroy().....");
 	}
 
-	@Override
 	public ServletConfig getServletConfig() {
 		return null;
 	}
 
-	@Override
 	public String getServletInfo() {
 		return null;
 	}
 
-	@Override
 	public void init(ServletConfig servletConfig) throws ServletException {
 		
 		//servletConfig  初始化参数
@@ -89,7 +85,6 @@ public class HelloWorldServlet implements Servlet  {
 		
 	}
 
-	@Override
 	public void service(ServletRequest arg0, ServletResponse arg1) throws ServletException, IOException {
 		System.out.println("service()...");		
 	}
