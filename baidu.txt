@@ -423,7 +423,7 @@ function h(obj){
         
 
 
-<script>if(window.bds&&bds.util&&bds.util.setContainerWidth){bds.util.setContainerWidth();}</script><div id="head"><div class="head_wrapper"><div class="s_form"><div class="s_form_wrapper"><div id="lg"><img hidefocus="true" src="//www.baidu.com/img/bd_logo1.png" width="270" height="129"></div><a href="/" id="result_logo" onmousedown="return c({'fm':'tab','tab':'logo'})"><img src="//www.baidu.com/img/baidu_jgylogo3.gif" alt="到百度首页" title="到百度首页"></a><form id="form" name="f" action="/s" class="fm"><input type="hidden" name="ie" value="utf-8"><input type="hidden" name="f" value="8"><input type="hidden" name="rsv_bp" value="1"><input type="hidden" name="rsv_idx" value="1"><input type=hidden name=ch value=""><input type=hidden name=tn value="baidu"><input type=hidden name=bar value=""><span class="bg s_ipt_wr"><input id="kw" name="wd" class="s_ipt" value="" maxlength="255" autocomplete="off"></span><span class="bg s_btn_wr"><input type="submit" id="su" value="百度一下" class="bg s_btn"></span><span class="tools"><span id="mHolder"><div id="mCon"><span>输入法</span></div><ul id="mMenu"><li><a href="javascript:;" name="ime_hw">手写</a></li><li><a href="javascript:;" name="ime_py">拼音</a></li><li class="ln"></li><li><a href="javascript:;" name="ime_cl">关闭</a></li></ul></span></span><input type="hidden" name="rn" value=""><input type="hidden" name="oq" value=""><input type="hidden" name="rsv_pq" value="a049c7aa00009be2"><input type="hidden" name="rsv_t" value="bc57iAA0kdbhJ8QIdwr9kRs2ErQO1Z2vFqEKLaTUD4eyyF44E0P59mst/dQ"><input type="hidden" name="rqlang" value="cn"></form><div id="m"></div></div></div><div id="u"><a class="toindex" href="/">百度首页</a><a href="javascript:;" name="tj_settingicon" class="pf">设置<i class="c-icon c-icon-triangle-down"></i></a><a href="https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F" name="tj_login" class="lb" onclick="return false;">登录</a></div><div id="u1"><a href="http://www.nuomi.com/?cid=002540" name="tj_trnuomi" class="mnav">糯米</a><a href="http://news.baidu.com" name="tj_trnews" class="mnav">新闻</a><a href="http://www.hao123.com" name="tj_trhao123" class="mnav">hao123</a><a href="http://map.baidu.com" name="tj_trmap" class="mnav">地图</a><a href="http://v.baidu.com" name="tj_trvideo" class="mnav">视频</a><a href="http://tieba.baidu.com" name="tj_trtieba" class="mnav">贴吧</a><a href="https://passport.baidu.com/v2/?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2F" name="tj_login" class="lb" onclick="return false;">登录</a><a href="http://www.baidu.com/gaoji/preferences.html" name="tj_settingicon" class="pf">设置</a><a href="http://www.baidu.com/more/" name="tj_briicon" class="bri" style="display: block;">更多产品</a></div></div></div>
+<script>if(window.bds&&bds.util&&bds.util.setContainerWidth){bds.util.setContainerWidth();}</script><div id="head"><div class="head_wrapper"><div class="s_form"><div class="s_form_wrapper"><div id="lg"><img hidefocus="true" src="//www.baidu.com/img/bd_logo1.png" width="270" height="129"></div><a href="/" id="result_logo" onmousedown="return c({'fm':'tab','tab':'logo'})"><img src="//www.baidu.com/img/baidu_jgylogo3.gif" alt="到百度首页" title="到百度首页"></a><form id="form" name="f" action="/s" class="fm"><input type="hidden" name="ie" value="utf-8"><input type="hidden" name="f" value="8"><input type="hidden" name="rsv_bp" value="1"><input type="hidden" name="rsv_idx" value="1"><input type=hidden name=ch value=""><input type=hidden name=tn value="baidu"><input type=hidden name=bar value=""><span class="bg s_ipt_wr"><input id="kw" name="wd" class="s_ipt" value="" maxlength="255" autocomplete="off"></span><span class="bg s_btn_wr"><input type="submit" id="su" value="百度一下" class="bg s_btn"></span><span class="tools"><span id="mHolder"><div id="mCon"><span>输入法</span></div><ul id="mMenu"><li><a href="javascript:;" name="ime_hw">手写</a></li><li><a href="javascript:;" name="ime_py">拼音</a></li><li class="ln"></li><li><a href="javascript:;" name="ime_cl">关闭</a></li></ul></span></span><input type="hidden" name="rn" value=""><input type="hidden" name="oq" value=""><input type="hidden" name="rsv_pq" value="c4555a0a0000abe3"><input type="hidden" name="rsv_t" value="be0fiwpXjX6AKO8w+9hLuKVji0SIcv0eszw2gvxqXxDkyZKu6O+4W1MJXG4"><input type="hidden" name="rqlang" value="cn"></form><div id="m"></div></div></div><div id="u"><a class="toindex" href="/">百度首页</a><a href="javascript:;" name="tj_settingicon" class="pf">设置<i class="c-icon c-icon-triangle-down"></i></a><a href="https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F" name="tj_login" class="lb" onclick="return false;">登录</a></div><div id="u1"><a href="http://www.nuomi.com/?cid=002540" name="tj_trnuomi" class="mnav">糯米</a><a href="http://news.baidu.com" name="tj_trnews" class="mnav">新闻</a><a href="http://www.hao123.com" name="tj_trhao123" class="mnav">hao123</a><a href="http://map.baidu.com" name="tj_trmap" class="mnav">地图</a><a href="http://v.baidu.com" name="tj_trvideo" class="mnav">视频</a><a href="http://tieba.baidu.com" name="tj_trtieba" class="mnav">贴吧</a><a href="https://passport.baidu.com/v2/?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2F" name="tj_login" class="lb" onclick="return false;">登录</a><a href="http://www.baidu.com/gaoji/preferences.html" name="tj_settingicon" class="pf">设置</a><a href="http://www.baidu.com/more/" name="tj_briicon" class="bri" style="display: block;">更多产品</a></div></div></div>
 
 
 
@@ -468,12 +468,12 @@ var bds={
         templateName:"",
         sugHost : "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su",
         query : "",
-        qid : "a049c7aa00009be2",
+        qid : "c4555a0a0000abe3",
         cid : "0",
-        sid : "1458_20793_21102_18559_21455_21408_21378_21526_21192_20928",
-        indexSid : "1458_20793_21102_18559_21455_21408_21378_21526_21192_20928",
+        sid : "1429_18240_17943_21122_21455_21409_21378_21526_21193",
+        indexSid : "1429_18240_17943_21122_21455_21409_21378_21526_21193",
         stoken : "",
-        serverTime : "1479263324",
+        serverTime : "1479268260",
         user : "",
         username : "",
         userid : "0",
@@ -481,8 +481,8 @@ var bds={
         useFavo : "",
         pinyin : "",
         favoOn : "",
-        cookie : {"BAIDUID":"E31EF28CB2024C5FFDE1A16A87AE9EA0:FG=1","BIDUPSID":"E31EF28CB2024C5FFDE1A16A87AE9EA0","PSTM":"1479227518","BD_HOME":"0","H_PS_PSSID":"1458_20793_21102_18559_21455_21408_21378_21526_21192_20928","BD_UPN":"13314352","__bsi":"12689544556723370560_00_0_I_R_4_0303_C02F_N_I_I_0"},
-        userAgent : "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0",
+        cookie : null,
+        userAgent : "Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1",
                 curResultNum:"0",
         rightResultExist:false,
         protectNum:0,
@@ -499,11 +499,13 @@ var bds={
         ishome : 1,
         flagTranslateResult:0,
         globalLogFlag:0
-	,encTn:'bc57iAA0kdbhJ8QIdwr9kRs2ErQO1Z2vFqEKLaTUD4eyyF44E0P59mst/dQ'    }
+	,encTn:'be0fiwpXjX6AKO8w+9hLuKVji0SIcv0eszw2gvxqXxDkyZKu6O+4W1MJXG4'    }
 };
 
 
 
+            bds.comm.globalLogFlag = 1;
+        bds.comm.testNewLog = 1;
     
 
 

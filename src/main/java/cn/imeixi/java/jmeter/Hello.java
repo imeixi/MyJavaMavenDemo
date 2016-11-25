@@ -1,4 +1,4 @@
-package cn.imeixi.jmeter.javarequest;
+package cn.imeixi.java.jmeter;
 
 public class Hello {
 	public String sayHello(){

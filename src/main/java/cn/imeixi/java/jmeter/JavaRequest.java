@@ -1,4 +1,4 @@
-package cn.imeixi.jmeter.javarequest;
+package cn.imeixi.java.jmeter;
 import java.util.Date;
 
 import org.apache.jmeter.config.Arguments;
