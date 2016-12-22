@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>properties write test</comment>
+<entry key="expires">2027年5月1日</entry>
+<entry key="url">www.imeixi.cn</entry>
+<entry key="name">imeixi</entry>
+<entry key="type">private</entry>
+</properties>
